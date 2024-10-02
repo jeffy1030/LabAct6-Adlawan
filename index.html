@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Curriculum - ACTIEF</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<!--
+    Classes Used: 
+
+    Course-Header: 
+    Course-Semester:
+    Course-Taken:
+    Course-Already-Taken:
+    Notice:
+-->
+
+<style>
+    .table-with-js{
+        justify-content: center;
+        text-align: center;
+        margin: 36px auto;
+    }
+</style>
+
+<body>
+    <p class="notice">
+        <b>NOTICE:</b>This is not valid for transfer. This is not an official copy of your transcript.<br>
+        This is not valid for transfer. This is not an official copy of your transcript.<br>
+        This will be your guide for selecting subjects to be enrolled.<br><br>
+
+        <b style="background-color: white;">White Background</b> means not yet taken.<br>
+        <b style="background-color: yellow;">Yellow background</b> means currently taken.<br>
+        <b style="background-color: skyblue;">Skyblue background</b> means already taken. <br><br>
+    </p>
+    <p>
+        <b>Bachelor of Science in Information Technology</b>
+        <br><b>Adlawan, Al Jefferson Y.</b>
+        <br><b>12-3456789</b>
+        <br>
+    </p>
+    <!--DESCRIPTION OF STUDENT-->
+
+    <div class="main-table">
+        <table>
+             <!--DISPLAYS FIRST SEMESTER-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">First Year, First Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="1st-sem"></tbody> 
+            <!--DISPLAYS SECOND SEMESTER-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">First Year, Second Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="2nd-sem"></tbody> 
+            <!--DISPLAYS THIRD SEMESTER-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">Second Year, First Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="3rd-sem"></tbody> 
+            <!--DISPLAYS 4-SEM-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">Second Year, Second Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="4th-sem"></tbody> 
+            <!--DISPLAYS 5-SEM-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">Third Year, First Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="5th-sem"></tbody> 
+            <!--DISPLAYS 6-SEM-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">Third Year, Second Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="6th-sem"></tbody> 
+            <!--DISPLAYS 7-SEM-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">Fourth Year, First Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="7th-sem"></tbody> 
+            <!--DISPLAYS 8-SEM-->
+            <tbody>
+                <tr>
+                    <th class="course-semester" colspan="7">Fourth Year, Second Semester</th>
+                </tr>
+                <tr class="course-header">
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Unit</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                    <th>Course</th>
+                    <th>Term</th>
+                </tr>
+            </tbody>
+            <tbody id="8th-sem"></tbody> 
+        </table>
+    </div>
+</body>
+</html>

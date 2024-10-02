@@ -1,0 +1,48 @@
+/*BODY PROPERTIES AND FONT*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+/*PARAGRAPH THAT CONTAINS THE NOTICE*/
+.notice{
+    text-align: left;
+}
+
+/*PROPERTIES OF TABLE*/
+table, th, td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 36px auto;
+}
+
+/*PROPERTIES OF TABLE WHERE IT HAS SHADOW ON THE SIDE*/
+table{
+    box-shadow: 5px 9px;
+}
+
+/*This class serves as the description for Course, Description, Unit, Grade, Remarks, Course and Term*/
+.course-header{
+    background-color: #e2e2e2;
+    font-weight: 600px;
+}
+
+/*This class serves as the header for the year and semester*/
+.course-semester
+{
+    background-color: #539fea;
+    color: white;
+}
+
+/*This class serves that this subject is currently taken*/
+.course-taken{
+    background-color: yellow;
+}
+
+/*This class serves that this subject is already taken*/
+.course-already-taken{
+    background-color: lightblue;
+}
